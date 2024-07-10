@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(128deg, #ffffff 55%, #44a0de 98%);
+    min-height: 100vh;
+}
+#app {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: max-content;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+top-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+bottom-links {
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+bottom-links div{
+    margin-left: 18px;
+    border-top: 1px solid black;
+    padding-top: 10px; /* Optional: Add some space between the line and the link content */
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 0;
+    width: 100%;
+    display: flex; /* Changed from block to flex */
+    align-items: center; /* Align items vertically in the center */
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+}
+.nav-links svg {
+    margin-right: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #34495e36;
+}
